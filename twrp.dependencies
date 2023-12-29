@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="YinCQL"
+            fetch="https://github.com/YinCQL"/>
+    <!-- TWRP lives in TeamWin android-11 (not AOSP!) -->
+    <project path="device/qcom/twrp-common" name="android_device_qcom_twrp-common" remote="YinCQL" revision="android-11"/>
+</manifest>
